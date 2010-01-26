@@ -1,0 +1,21 @@
+= Trendy
+Trendy is a simple Twitter Search API Wrapper that does one thing: gives you the current Trends on Twitter.
+
+== Installation
+  gem install trendy
+
+== Example
+Remember to add a "config.gem trendy" line in your environment.rb.
+
+  require 'trendy'
+  current_trends = Trendy::Trends.new
+  current_trends.each do |trend|
+    puts trend.name
+    puts trend.url
+  end
+
+== Tests
+To run the rspec tests for this gem, just run 'rake' in the main directory.
+
+
+Copyright (c) 2010 Paul Fedory, released under the MIT license
