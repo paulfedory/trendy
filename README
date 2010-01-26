@@ -3,7 +3,6 @@ Trendy
 
 Trendy is a simple Twitter Search API Wrapper that does one thing: gives you the current Trends on Twitter.
 
-
 Example
 =======
 
@@ -13,6 +12,11 @@ current_trends.each do |trend|
   puts trend.name
   puts trend.url
 end
+
+Tests
+=======
+
+To run the rspec tests for this gem, just run 'rake' in the main directory.
 
 
 Copyright (c) 2010 Paul Fedory, released under the MIT license

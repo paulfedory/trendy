@@ -49,8 +49,9 @@ module Trendy
       @trend.name.should_not be_nil
     end
     
-    it "should have a query or a url" do
-      (!@trend.query.nil? || !@trend.url.nil?).should be_true
+    it "should have a url" do
+      #(!@trend.query.nil? || !@trend.url.nil?).should be_true
+      @trend.url.should_not be_nil
     end
 
   end

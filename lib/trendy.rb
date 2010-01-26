@@ -11,7 +11,6 @@ module Trendy
     attr_reader :url, :datetime
     
     def initialize
-    
       @url = 'http://search.twitter.com/trends.json'
       result = read_twitter
 
@@ -37,8 +36,8 @@ module Trendy
     
   end
   
-  # Trend contains the name, url (for current trends) or query (for older trends) of a single trending topic
+  # Trend contains the name, url (for current trends) of a single trending topic
   class Trend
-    attr_accessor :name, :url, :query
+    attr_accessor :name, :url
   end
 end
