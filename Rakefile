@@ -30,6 +30,8 @@ begin
     gemspec.description = "A wrapper for the Twitter API that gets trends."
     gemspec.homepage = "http://github.com/paulfedory/trendy"
     gemspec.authors = ["Paul Fedory"]
+    gemspec.add_dependency('json_pure', '>= 1.2.0')
+    
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
