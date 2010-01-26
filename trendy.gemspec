@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{trendy}
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Fedory"]
@@ -24,7 +24,8 @@ Gem::Specification.new do |s|
      "rails/init.rb",
      "spec/spec_helper.rb",
      "spec/trendy_spec.rb",
-     "tasks/trendy_tasks.rake"
+     "tasks/trendy_tasks.rake",
+     "trendy.gemspec"
   ]
   s.homepage = %q{http://github.com/paulfedory/trendy}
   s.rdoc_options = ["--charset=UTF-8"]
