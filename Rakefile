@@ -31,8 +31,8 @@ begin
     gemspec.homepage = "http://github.com/paulfedory/trendy"
     gemspec.authors = ["Paul Fedory"]
     gemspec.add_dependency('json_pure', '>= 1.2.0')
-    
   end
+  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
 end
