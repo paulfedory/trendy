@@ -17,5 +17,8 @@ Remember to add a "config.gem trendy" line in your environment.rb.
 == Tests
 To run the rspec tests for this gem, just run 'rake' in the main directory.
 
+== TODO
+Add support for older trends, including daily and weekly trends for a given date. Also add support for local geo-aware trends.
+
 
 Copyright (c) 2010 Paul Fedory, released under the MIT license
